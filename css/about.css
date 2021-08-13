@@ -1,3 +1,129 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: black
+  }
+  #navi{
+    display: flex;
+    flex-direction: row;
+    width:800px;
+    justify-content: space-between;
+    margin-right: 80px;
+    list-style: none;
+    word-spacing: 800px;
+  }
+  li> a {
+    font-family: 'Raleway', sans-serif;  font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    transition: 0.5s;
+  }
+  
+  li a:hover
+  {
+    color: rgb(228, 54, 54);
+    letter-spacing: 3px;
+  }
+
+
+
 body{
-  background-color: brown;
+  background-color: black
 }
+.main{
+  border: black 1px solid;
+  height: 140vh;
+}
+h1{
+  display: flex;
+  justify-content: center;
+align-items: center;
+ text-align: center;
+ color: black;
+ font-size: 45px;
+ height: 10vh;
+ font-family:font-family: 'Raleway', sans-serif;
+}
+span{
+  display: flex;
+  background: white;
+  padding: 20px 205px
+}
+.main{
+  text-align: center;
+  color: white;
+}
+
+.main > div > div { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#redcar{
+ min-width: 900px;
+}
+ p {
+  max-width: 90ch;
+  margin: auto;
+  color: white;
+  word-spacing: 2px ;
+  font-size: 20px;
+}
+h2{
+  font-size: 60px;
+  line-height: 100px;
+}
+
+h4{
+  font-size: 40px;
+}
+H6{
+  font-size: 25px;
+  color: floralwhite;
+}
+
+
+.container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-areas: ".";
+  border: red 2px solid;
+  padding: 30px;
+
+}
+.container > div {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#book{
+font-size: 60px;
+  background-color: rgb(236, 80, 69);
+  transition:0.3s;
+ margin: auto;
+ margin-top: 70px;
+ margin-bottom: 40px;
+ line-height: 100px;
+}
+
+#book:hover{
+  transform: scale(1.2);
+}
+
