@@ -1,0 +1,102 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+  body{
+    background: black;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: black
+  }
+  span{
+    display: flex;
+    background: white;
+    padding: 20px 205px;
+    margin-bottom: 20px;
+  }
+
+  
+  #navi{
+    display: flex;
+    flex-direction: row;
+    width:800px;
+    justify-content: space-between;
+    margin-right: 80px;
+    list-style: none;
+    word-spacing: 800px;
+  }
+  li> a {
+    font-family: 'Raleway', sans-serif;  font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    transition: 0.5s;
+  }
+  
+  li a:hover
+  {
+    color: rgb(228, 54, 54);
+    letter-spacing: 3px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+   text-align: center;
+   color: black;
+   font-size: 45px;
+   height: 10vh;
+   font-family:font-family: 'Raleway', sans-serif;
+
+  }
+
+.main{
+  margin: auto;
+  max-width: 1200px;
+  height: 100vh;
+  
+  
+}
+
+
+  .main > .links {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows:100%;
+    background: rgb(255, 255, 255);
+    border: black 3px solid;   
+    padding: 5px;
+    transition: .5s;
+    
+}
+#polish{
+  border: black 1px solid;
+}
+.main > .gap{
+  border: none;
+  background: none;
+  height: 80px;
+}
+.text{
+  font-size: 23px;
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+}
+h2{
+  font-size: 30px;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+.main > .links:hover{
+  transform: scale(1.2);
+}
+

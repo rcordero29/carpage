@@ -28,7 +28,7 @@ li > a {
   font-size: 25px;
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: 800;
   transition: 0.5s;
 }
 
@@ -65,8 +65,19 @@ li a:hover {
   width: 100%;
   height: auto;
 }
-h1 {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  color: white;
+h1{
+  display: flex;
+  justify-content: center;
+align-items: center;
+ text-align: center;
+ color: black;
+ font-size: 45px;
+ height: 10vh;
+ font-family:font-family: 'Raleway', sans-serif;
 }
+span{
+  display: flex;
+  background: white;
+  padding: 20px 205px
+}
+
