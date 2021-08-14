@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+li > a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  transition: 0.5s;
+}
+
+li a:hover {
+  color: rgb(228, 54, 54);
+  letter-spacing: 3px;
+}
+#navi {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+  margin-right: 80px;
+  list-style: none;
+  word-spacing: 800px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  margin: 5px;
+  border: 2px white solid;
+
+  width: 390px;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+h1{
+  display: flex;
+  justify-content: center;
+align-items: center;
+ text-align: center;
+ color: black;
+ font-size: 45px;
+ height: 10vh;
+ font-family:font-family: 'Raleway', sans-serif;
+}
+span{
+  display: flex;
+  background: white;
+  padding: 20px 205px
+}
+
