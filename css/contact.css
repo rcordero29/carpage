@@ -73,3 +73,51 @@ label {
   width: 200px;
   height: 60px;
 }
+
+@media(max-width: 700px){
+  *{
+  padding: 10px;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+    padding: 10px;
+  }
+  
+  iframe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  h2{
+    font-size: 25px;
+  }
+
+  .main > .info{
+    font-size: 12px;
+  }
+#navi{
+  margin: auto;
+  
+}
+span{
+  left: 200px;
+  bottom: 50px;
+}
+
+
+
+
+}
